@@ -953,3 +953,20 @@ La parte importante non è far scrivere YAML all’AI. La parte importante è im
 Prima il sistema deve capire cosa sono le entità nella vita reale. Poi può costruire automazioni sopra quella mappa.
 
 La V1 deve essere stretta, concreta e solida. Meglio tre pattern fatti bene che un generatore universale fragile.
+
+---
+
+## 8. Development status
+
+Stato attuale del repository:
+
+* walking skeleton iniziale con package `intentguard_core` puro e testabile;
+* adapter add-on minimale con FastAPI, endpoint `GET /health` e inizializzazione SQLite;
+* CI base con `pytest`.
+
+Fuori scope in questa fase:
+
+* LLM e interpretazione linguaggio naturale;
+* entity discovery da Home Assistant;
+* generazione YAML finale;
+* deploy, monitoraggio completo e integrazione API Home Assistant.

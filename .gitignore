@@ -1,3 +1,6 @@
+# Project specific
+NOTES.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -57,6 +60,7 @@ cover/
 
 # Django stuff:
 *.log
+*.db
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -150,6 +154,7 @@ activemq-data/
 # Environments
 .env
 .envrc
+.local-data/
 .venv
 env/
 venv/

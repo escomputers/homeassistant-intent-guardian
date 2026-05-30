@@ -1,0 +1,19 @@
+name: IntentGuard
+version: "0.1.0"
+slug: intentguard
+description: Initial walking skeleton for the IntentGuard add-on runtime.
+startup: services
+boot: auto
+init: false
+homeassistant_api: true
+panel_icon: mdi:shield-check
+ports:
+  8000/tcp: 8000
+arch:
+  - aarch64
+  - amd64
+  - armv7
+  - armhf
+  - i386
+options: {}
+schema: {}
